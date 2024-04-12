@@ -1,0 +1,40 @@
+name: pahtan_24_items
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment: 
+  sdk: '>=3.3.3 <4.0.0'
+
+dependencies: 
+  cupertino_icons: ^1.0.6
+  get: 4.6.6
+  flutter: 
+    sdk: flutter
+  getwidget: ^4.0.0
+  flutter_launcher_icons: ^0.13.1
+  connectivity: ^3.0.6
+  webview_flutter: ^4.7.0
+  flutter_html: ^3.0.0-beta.2
+  assets_audio_player: ^3.1.1
+
+dev_dependencies: 
+  flutter_lints: 3.0.2
+  flutter_test: 
+    sdk: flutter
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/logo.jpeg"
+  min_sdk_android: 21 # android min sdk min:16, default 21
+  web:
+    generate: true
+    image_path: "assets/logo.jpeg"
+    background_color: "#hexcode"
+    theme_color: "#hexcode"
+
+flutter: 
+  uses-material-design: true
+  assets:
+    - assets/
+
